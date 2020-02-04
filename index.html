@@ -40,22 +40,17 @@
   <span class="author">
     HeiTong
   </span>
-  {% if theme.busuanzi_count.total_visitors %}
-    <span class="site-uv" title="{{ __('footer.total_visitors') }}">
-    <span class="site-uv">
-      {{ __('footer.total_visitors', '<span class="busuanzi-value" id="busuanzi_value_site_uv"></span>') }}
-      <i class="fa fa-{{ theme.busuanzi_count.total_visitors_icon }}"></i>
-      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
-    </span>
-  {% endif %}
-  {% if theme.busuanzi_count.total_views %}
-    <span class="site-pv" title="{{ __('footer.total_views') }}">
-    <span class="site-pv">
-      {{ __('footer.total_views', '<span class="busuanzi-value" id="busuanzi_value_site_pv"></span>') }}
-      <i class="fa fa-{{ theme.busuanzi_count.total_views_icon }}"></i>
-      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
-    </span>
-  {% endif %}
+
+        <!-- 不蒜子统计 -->
+        <span id="busuanzi_container_site_pv">
+                <img src="E:\blog\themes\polk\source\eye.ico"><span id="busuanzi_value_site_pv"></span>
+        </span>
+        <span class="post-meta-divider">|</span>
+        <span id="busuanzi_container_site_uv" style='display:none'>
+                <img src="E:\blog\themes\polk\source\user.ico"><span id="busuanzi_value_site_uv"></span>
+        </span>
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
 </footer>
   </div>
 </div>
