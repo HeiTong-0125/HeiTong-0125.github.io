@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: url("/background.jpg");
+  background: url("/background.png");
   background-size: cover;
 }
 html,
@@ -29,27 +29,29 @@ a {
   text-align: center;
 }
 .home .info .logo {
-  font-size: 2.5em;
+  font-size: 4em;
   font-weight: bold;
+  color: #fff;
 }
 .home .info .subtitle {
-  font-size: 14px;
-  color: #808080;
+  font-size: 20px;
+  color: #91918e;
 }
 .home .info .sns {
   margin: 1em auto;
+  font-size: 2em;
 }
 .home .info .sns a {
-  width: 55px;
+  width: 3.5em;
   color: #999;
   display: inline-block;
 }
 .home .info .sns a:hover {
-  color: #000;
+  color: #fff;
 }
 .home .info footer {
   border: 0;
-  color: #000;
+  color: #fff;
   padding: 0;
 }
 .page {
@@ -257,7 +259,7 @@ a {
   content: '#';
 }
 .article-title {
-  font-size: 1.5em;
+  font-size: 3em;
   line-height: 1.2em;
   border-bottom: 1px solid #000;
 }
@@ -310,9 +312,10 @@ footer {
   margin: 0.5em 20px 0 20px;
   border-top: 3px double #ccc;
   padding: 1em 0 1em 0;
-  font-size: 80%;
+  font-size: 15px;
   color: #888;
 }
 footer .author {
-  color: #000;
+  color: #fff;
+  font-size: #fff;
 }
